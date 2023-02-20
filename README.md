@@ -29,7 +29,7 @@ To obtain this project, follow the steps:
 **Fork this repository**
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd next-ifood
+$ git clone your-fork-url && cd tokea
 
 # Create a branch with your feature or bug fix
 $ git checkout -b my-branch
