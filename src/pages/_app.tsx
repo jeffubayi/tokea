@@ -13,6 +13,7 @@ export default function MyApp({ Component, pageProps }) {
           TOKEA! - Discover great events and buy tickets or Host your own
           events.
         </title>
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
