@@ -1,159 +1,187 @@
  {
   "headline": [
     {
-      "image_url":"https://static-images.ifood.com.br/image/upload//discoveries/mercado-entregagratis.png",
-      "alt":"Mercado"
-    },
-    {
-      "image_url":"https://static-images.ifood.com.br/image/upload//discoveries/ifood_capas_rest_entrega_gratis_abr_20.png",
-      "alt":"Entrega Grátis"
-    },
-    {
-      "image_url":"https://static-images.ifood.com.br/image/upload//discoveries/20C1_abb.png",
-      "alt":"Descobertas"
-    },
-    {
-      "image_url":"https://static-images.ifood.com.br/image/upload//discoveries/jul_20_70off.jpg",
-      "alt":"Desconto"
-    }
+  image_url: "https://tokeabucket.s3.us-east-2.amazonaws.com/Ms+Understood+Live+Tokea+Banner+(1).jpg",
+  alt: "ms understood"
+},
+{
+  image_url: "https://tokeabucket.s3.us-east-2.amazonaws.com/tokea_wide_dripfest_1.png",
+  alt: "drip fest"
+},
+{
+  image_url: "https://tokeabucket.s3.us-east-2.amazonaws.com/Ms+Understood+Live+Tokea+Banner+(1).jpg",
+  alt: "ms understood"
+},
+{
+  image_url: "https://tokeabucket.s3.us-east-2.amazonaws.com/tokea_wide_dripfest_1.png",
+  alt: "drip fest"
+},
   ],
-  "upcomingEvents": [
-    {
-      "id": "1",
-      "title": "Mcdonald's",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201810231832_2b3b8c04-73fb-4f23-9c89-b75e538404c6.png",
-      "category": "Lanches",
-      "distance": 3.36,
-      "start_time": 28,
-      "end_time": 38,
-      "rating": 4.9
-    },
-    {
-      "id": "2",
-      "title": "Subway",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201903142138_7ed60480-4895-4f67-ba3e-edf2366eadb3.png",
-      "category": "Lanches",
-      "distance": 1.15,
-      "start_time": 15,
-      "end_time": 25,
-      "rating": 4.4
-    },
-    {
-      "id": "3",
-      "title": "Burguer King",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202009301458_d5736924-893e-42b2-89d1-ff37e58abc1e.jpg",
-      "category": "Lanches",
-      "distance": 3.3,
-      "start_time": 38,
-      "end_time": 48,
-      "rating": 4.3
-    },
-    {
-      "id": "4",
-      "title": "Sushi Boulevard",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/c48cbb89-0ddb-48ec-83cd-25946fe8c78f/201908131950_v914_i.png",
-      "category": "Japonesa",
-      "distance": 3.76,
-      "start_time": 43,
-      "end_time": 53,
-      "rating": 4.8
-    },
-    {
-      "id": "5",
-      "title": "Rocky Burguer",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/dbc629b1-71e7-406c-8959-d251540157f5/202007192209_Cywt_.jpeg",
-      "category": "Lanches",
-      "distance": 2.74,
-      "start_time": 40,
-      "end_time": 50,
-      "rating": 4.5
-    }
+    "upcomingEvents": [
+      {
+    id:1,
+    title:"The Pod Must Be Crazy",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/THE+PODS+MUST+BE+CRAZY+2-01.jpg",
+    category: "Nairobi Cinema",
+    distance:0,
+    start_time:0,
+    end_time:0,
+    rating:"11 MAR"
+  },
+  {
+    id:2,
+    title:"Side Bar Ventures",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/SideBarAdventures.jpeg",
+    category: "Waterfront Mall",
+    distance:0,
+    start_time:0,
+    end_time:0,
+    rating:"29 APR"
+  }
   ],
-  "restaurants": [
+  "pastEvents": [
     {
-      "id": "1",
-      "title": "Mcdonald's",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201810231832_2b3b8c04-73fb-4f23-9c89-b75e538404c6.png",
-      "category": "Lanches",
-      "distance": 3.36,
-      "start_time": 28,
-      "end_time": 38,
-      "rating": 4.9,
-      "price": "R$ 5.99"
-    },
+    id: 3,
+    title: "Ms Understood Live",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://madfun.s3.af-south-1.amazonaws.com/msUnder.jpeg",
+    category: "FairView Hotel",
+    distance: 0,
+    start_time: 1,
+    end_time: 1,
+    rating: "04 FEB"
+  },
+  {
+    id: 4,
+    title: "Blvck Excellence",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/sankara.jpeg",
+    category: "Sankara Parking Lot",
+    distance: 0,
+    start_time: 1,
+    end_time: 1,
+    rating: "07 JAN"
+  },
+  {
+    id: 5,
+    title: "Legeza Dance Battle",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/legeza.jpeg",
+    category: "Rupa's Mall ",
+    distance: 1,
+    start_time: 1,
+    end_time: 1,
+    rating: "14 JAN"
+  },
+  {
+    id: 6,
+    title: "Blvck Excellence 2",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/blvck2.jpeg",
+    category: "Sankara Parking Lot",
+    distance: 0,
+    start_time: 1,
+    end_time: 1,
+    rating: "18 DEC"
+  },
+  {
+    id: 7,
+    title: "FIM Challenge",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/fim.jpeg",
+    category: "Jamhuri Mx Track",
+    distance: 0,
+    start_time: 1,
+    end_time: 1,
+    rating: "11 DEC"
+  },
+  {
+    id: 8,
+    title: "YM Life Moulin Rouge",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/512x512px.jpg",
+    category: "Nairobi Museum",
+    distance: 1,
+    start_time:1 ,
+    end_time: 1,
+    rating: "16 DEC"
+  },
+  ],
+  "events": [
     {
-      "id": "2",
-      "title": "Subway",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201903142138_7ed60480-4895-4f67-ba3e-edf2366eadb3.png",
-      "category": "Lanches",
-      "distance": 1.15,
-      "start_time": 15,
-      "end_time": 25,
-      "rating": 4.4,
-      "price": "R$ 5.99"
-    },
-    {
-      "id": "3",
-      "title": "Milleo Lanches",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201705232310_49a58116-6536-4a07-9abf-7b97c891c5e7.png",
-      "category": "Lanches",
-      "distance": 3.49,
-      "start_time": 20,
-      "end_time": 30,
-      "rating": 4.6,
-      "price": "R$ 5.99"
-    },
-    {
-      "id": "4",
-      "title": "Domino's Pizza",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201909101956_cc4ae59c-860a-48b4-9fe2-9f3f5840ce5f.png",
-      "category": "Pizza",
-      "distance": 3.4,
-      "start_time": 40,
-      "end_time": 50,
-      "rating": 4.7,
-      "price": "R$ 5.99"
-    },
-    {
-      "id": "5",
-      "title": "Habbib's",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201801241023__HABIBSNAZARE.jpg",
-      "category": "Lanches",
-      "distance": 2.97,
-      "start_time": 48,
-      "end_time": 58,
-      "rating": 4.1
-    },
-    {
-      "id": "6",
-      "title": "Batistão Duque",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/cfa433b7-eed4-4630-998e-c599623b08b3/202003190923_3A3w_i.jpg",
-      "category": "Lanches",
-      "distance": 1.8,
-      "start_time": 36,
-      "end_time": 56,
-      "rating": 4.6
-    },
-    {
-      "id": "7",
-      "title": "Sushi Boulevard",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/c48cbb89-0ddb-48ec-83cd-25946fe8c78f/201908131950_v914_i.png",
-      "category": "Japonesa",
-      "distance": 3.76,
-      "start_time": 43,
-      "end_time": 53,
-      "rating": 4.8
-    },
-    {
-      "id": "8",
-      "title": "Rocky Burguer",
-      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/dbc629b1-71e7-406c-8959-d251540157f5/202007192209_Cywt_.jpeg",
-      "category": "Lanches",
-      "distance": 2.74,
-      "start_time": 40,
-      "end_time": 50,
-      "rating": 4.5
-    }
+    id:1,
+    title:"The Pod Must Be Crazy",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/THE+PODS+MUST+BE+CRAZY+2-01.jpg",
+    category: "Nairobi Cinema",
+    distance:0,
+    start_time:0,
+    end_time:0,
+    rating:"11 MAR"
+  },
+  {
+    id:2,
+    title:"Side Bar Ventures",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/SideBarAdventures.jpeg",
+    category: "Waterfront Mall",
+    distance:0,
+    start_time:0,
+    end_time:0,
+    rating:"29 APR"
+  }
+      {
+    id: 3,
+    title: "Ms Understood Live",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://madfun.s3.af-south-1.amazonaws.com/msUnder.jpeg",
+    category: "FairView Hotel",
+    distance: 0,
+    start_time: 1,
+    end_time: 1,
+    rating: "04 FEB"
+  },
+  {
+    id: 4,
+    title: "Blvck Excellence",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/sankara.jpeg",
+    category: "Sankara Parking Lot",
+    distance: 0,
+    start_time: 1,
+    end_time: 1,
+    rating: "07 JAN"
+  },
+  {
+    id: 5,
+    title: "Legeza Dance Battle",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/legeza.jpeg",
+    category: "Rupa's Mall ",
+    distance: 1,
+    start_time: 1,
+    end_time: 1,
+    rating: "14 JAN"
+  },
+  {
+    id: 6,
+    title: "Blvck Excellence 2",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/blvck2.jpeg",
+    category: "Sankara Parking Lot",
+    distance: 0,
+    start_time: 1,
+    end_time: 1,
+    rating: "18 DEC"
+  },
+  {
+    id: 7,
+    title: "FIM Challenge",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/fim.jpeg",
+    category: "Jamhuri Mx Track",
+    distance: 0,
+    start_time: 1,
+    end_time: 1,
+    rating: "11 DEC"
+  },
+  {
+    id: 8,
+    title: "YM Life Moulin Rouge",
+    image_url: "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/512x512px.jpg",
+    category: "Nairobi Museum",
+    distance: 1,
+    start_time: 1,
+    end_time: 1,
+    rating: "16 DEC"
+  },
   ],
   "categories": [
     {
