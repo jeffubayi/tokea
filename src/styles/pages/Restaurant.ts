@@ -56,6 +56,7 @@ export const Container = styled.div`
         margin-bottom: 20px;
       }
     }
+    
 
     h3 {
       font-weight: 400;
@@ -72,7 +73,7 @@ export const Container = styled.div`
     }
 
     .starred {
-      color: #e7a74e;
+      color: #DC2626;
       font-weight: bold;
       margin-left: 5px;
     }
@@ -184,5 +185,24 @@ export const Menu = styled.div`
     font-size: 1.125rem;
     color: #3f3e3e;
     margin-left: 20px;
+  }
+  button {
+    cursor: pointer;
+    border: 1px solid #f0f0f0;
+    background: #ea1d2c;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: 0.04s all;
+      @media (min-width: 960px) {
+        color: #fff;
+        background: #ea1d2c;
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
   }
 `;

@@ -139,6 +139,27 @@ export const Container = styled.div<IPropsContainer>`
           height: 86px;
         }
       }
+      button {
+        cursor: pointer;
+        border: 1px solid #f0f0f0;
+        background: #fff;
+        color: #ea1d2c;
+        width: 100%;
+        margin-top: 20px;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 4px;
+        transition: 0.04s all;
+  
+        &:hover {
+          background: #f0f0f0;
+  
+          @media (min-width: 960px) {
+            color: #fff;
+            background: #ea1d2c;
+          }
+        }
+      }
     }
   }
 `;
