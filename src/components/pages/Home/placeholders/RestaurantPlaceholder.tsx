@@ -1,4 +1,4 @@
-import Restaurant from '../Events';
+import Restaurant from '../Event';
 
 interface IPlaceHolderProps {
   repeatCount: number;
@@ -15,11 +15,11 @@ export default function RestaurantPlaceHolder({
     id: 0,
     title: '',
     image_url: '',
-    category: '',
-    distance: 0,
-    start_time: 0,
+    venue: '',
+    category: 0,
+    amount: 0,
     end_time: 0,
-    rating: 0,
+    date:"",
   };
 
   return (
@@ -29,7 +29,7 @@ export default function RestaurantPlaceHolder({
           key={placeholder}
           isFamousContainer={isFamousContainer}
           loading
-          restaurantData={restaurantData}
+          eventData={restaurantData}
         />
       ))}
     </>

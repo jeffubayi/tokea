@@ -2,38 +2,23 @@ import Link from 'next/link';
 import { FaCalendarAlt } from 'react-icons/fa';
 import Skeleton from 'react-loading-skeleton';
 import { Container } from '../../../styles/components/pages/Home/Restaurant';
-
-interface IRestaurantProps {
-  restaurantData?: {
-    id: number;
-    title: string;
-    image_url: string;
-    category: string;
-    distance: number;
-    start_time: number;
-    end_time: number;
-    rating: number;
-    price?: string;
-  };
-  isFamousContainer?: boolean;
-  loading?: boolean;
-}
+import {EventProps} from '../../../services/types'
 
 export default function Restaurant({
-  restaurantData,
+  eventData,
   isFamousContainer,
   loading,
-}: IRestaurantProps) {
+}: EventProps) {
   const {
+    id,
     image_url,
     title,
+    venue,
     category,
-    rating,
-    distance,
-    start_time,
+    amount,
+    date,
     end_time,
-    price,
-  } = restaurantData;
+  } = eventData;
 
   return (
     <>
@@ -59,21 +44,20 @@ export default function Restaurant({
         </Container>
       ) : (
         <Container isFamousContainer={isFamousContainer}>
-          <Link href={`/restaurant/${title}`}>
+          <Link href={`/event/${id}`}>
             <div>
               <figure>
-                <img src="https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Toxic+Valentine.png" alt={title} />
+                <img src={image_url} alt={title} />
               </figure>
               <aside />
               <main>
-                <h5>Sandwich podcast live show #3</h5>
-                <span />
+                <h5>{title}</h5>
                 <span>
                   <FaCalendarAlt fill="#DC2626" size={12} />
-                  <p className="starred">11 Feb</p>
-                  &nbsp;• Wining post
+                  <p className="starred">{date}</p>
+                  &nbsp;• {venue} 
                 </span>
-                <span />
+                {end_time == 0 ? <button style={{ padding: "6px", fontSize: "12px" }} type="button">Buy Ticket</button>:<span/>}
               </main>
             </div>
           </Link>

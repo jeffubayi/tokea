@@ -8,24 +8,18 @@ interface CarouselItem {
   alt: string;
 }
 
-const carrouselItems : CarouselItem[]= [{
-  image_url: "https://tokeabucket.s3.us-east-2.amazonaws.com/Ms+Understood+Live+Tokea+Banner+(1).jpg",
-  alt: "ms understood"
-},
-{
-  image_url: "https://tokeabucket.s3.us-east-2.amazonaws.com/tokea_wide_dripfest_1.png",
-  alt: "drip fest"
-},
-{
-  image_url: "https://tokeabucket.s3.us-east-2.amazonaws.com/Ms+Understood+Live+Tokea+Banner+(1).jpg",
-  alt: "ms understood"
-},
-{
-  image_url: "https://tokeabucket.s3.us-east-2.amazonaws.com/tokea_wide_dripfest_1.png",
-  alt: "drip fest"
-},
-]
 export default function Carousel(): JSX.Element {
+  const [carrouselItems, setCarrouselItems] = useState<CarouselItem[]>([]);
+
+  useEffect(() => {
+    async function loadCarousel() {
+      const response = await api.get('headline');
+
+      setCarrouselItems(response.data);
+    }
+
+    loadCarousel();
+  }, []);
 
   return (
     <Container id="items-wrapper">
@@ -36,10 +30,7 @@ export default function Carousel(): JSX.Element {
           carrouselItems.map(item => (
             <div className="item" key={item.alt}>
               <figure>
-                <img
-                  src={item.image_url}
-                  alt={item.alt}
-                />
+                <img src={item.image_url} alt={item.alt} />
               </figure>
             </div>
           ))
