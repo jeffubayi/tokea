@@ -1,13 +1,14 @@
 import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
-import { FaStar } from 'react-icons/fa';
+import { FaCalendarAlt } from 'react-icons/fa';
 import { FiChevronLeft, FiSearch } from 'react-icons/fi';
 import Header from '../../components/Header';
 import MobileMenu from '../../components/MobileMenu';
-import Carousel from '../../components/pages/Restaurant/Carousel';
+import FoodModal from '../../components/pages/Restaurant/FoodModal';
 import MenuCategory from '../../components/pages/Restaurant/MenuCategory';
 import useWindowSize from '../../hooks/useWindowDimensions';
 import api from '../../services/api';
+import Head from 'next/head';
 
 import {
   Container,
@@ -16,32 +17,19 @@ import {
   MenuCategoriesContainer,
   Menu,
 } from '../../styles/pages/Restaurant';
-
-interface IRestaurant {
-  id: string;
-  image_url: string;
-  cover_image_url: string;
-  description?: string;
-  title: string;
-  category: string;
-  rating: number;
-  price: string;
-  distance: number;
-  start_time: number;
-  end_time: number;
-}
+import {EventDetail} from "../../services/types"
 
 interface IRestarauntProps {
-  restaurant: IRestaurant;
+  restaurant: EventDetail;
 }
 
 export default function RestaurantPage({ restaurant }: IRestarauntProps) {
   const router = useRouter();
-
   const { width } = useWindowSize();
 
   return (
     <>
+
       <Container>
         {width >= 960 ? (
           <Header />
@@ -62,6 +50,11 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
 
         {restaurant && (
           <>
+            <Head>
+              <title>
+                {restaurant.title}
+              </title>
+            </Head>
             <img
               src={restaurant.cover_image_url}
               alt="cover"
@@ -76,19 +69,15 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
                   )}
                 </main>
                 <span>
-                  <FaStar fill="#e7a74e" size={15} />
-                  <p className="starred">{restaurant.rating}</p>
+                  <FaCalendarAlt fill="#DC2626" size={15} />
+                  <p className="starred">{restaurant.date}</p>
                 </span>
               </div>
               <h1>{restaurant.title}</h1>
               <h2>{restaurant.description}</h2>
               <h3>
-                {restaurant.category} • {restaurant.start_time}-
-                {restaurant.end_time} min • {restaurant.distance} km • $$$ •
-                ENTREGA {restaurant.price}
+                {restaurant.venue} • {restaurant.start_time}
               </h3>
-
-              <span className="see-more">Ver mais</span>
             </main>
           </>
         )}
@@ -97,42 +86,28 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
           <MenuCategoriesContainer>
             <ul>
               <li className="active">
-                <h3>Entradas</h3>
+                <h3>Tickets</h3>
               </li>
               <li className="disabled">
-                <h3>Combos Promocionais</h3>
+                <h3>Event Organizers</h3>
               </li>
-              <li className="disabled">
-                <h3>Burgers</h3>
-              </li>
-              <li className="disabled">
-                <h3>Cervejas</h3>
-              </li>
-              <li className="disabled">
-                <h3>Bebidas</h3>
-              </li>
-              <li className="disabled">
-                <h3>Pizzas</h3>
-              </li>
-              <li className="disabled">
-                <h3>Batata Frita</h3>
-              </li>
+             
             </ul>
           </MenuCategoriesContainer>
 
           <Menu>
-            <h3>Destaques</h3>
-
-            <Carousel />
-
-            <MenuCategory category_title="Entradas" />
-            <MenuCategory category_title="Combos Promocionais" />
-            <MenuCategory category_title="Burgers" />
+          {restaurant.end_time == 0 && (
+            <>
+            <button type="button">Purchase Ticket</button>
+            <FoodModal />
+            </>
+            )}
+            <MenuCategory category_title="Similar Events" />
           </Menu>
         </MenuContainer>
 
         <MobileMenu />
-      </Container>
+      </Container >
     </>
   );
 }
@@ -140,7 +115,7 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
 export const getServerSideProps: GetServerSideProps<IRestarauntProps> = async context => {
   const { restaurant_slug } = context.params;
 
-  const response = await api.get(`restaurants?title=${restaurant_slug}`);
+  const response = await api.get(`events?id=${restaurant_slug}`);
 
   const restaurant = response.data[0];
 

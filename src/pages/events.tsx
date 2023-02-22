@@ -3,9 +3,8 @@ import MobileMenu from '../components/MobileMenu';
 import Categories from '../components/pages/Home/Categories';
 import Voucher from '../components/pages/Home/Voucher';
 import Carousel from '../components/pages/Home/Carousel';
-import Famous from '../components/pages/Home/Famous';
-import SuggestedRestaurants from '../components/pages/Home/SuggestedRestaurants';
-
+import PastEvents from '../components/pages/Home/pastEvents';
+import UpcomingEvents from '../components/pages/Home/UpcomingEvents';
 import { Container } from '../styles/pages/Home';
 
 export default function Home() {
@@ -15,9 +14,9 @@ export default function Home() {
         <Header isFixed />
         <Voucher />
         <Carousel />
+        <UpcomingEvents />
         {/* <Categories /> */}
-        <SuggestedRestaurants />
-        <Famous />
+        <PastEvents />
         <MobileMenu />
       </Container>
     </>

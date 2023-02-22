@@ -8,11 +8,11 @@ export default function NotFound() {
     <Container>
       <Empty />
       <span role="img" aria-label="emoji of doubt">
-        Página não encontrada 🧐
+        Page does not exist
       </span>
       <Link href="/events">
         <span role="img" aria-label="emoji of happiness">
-          Você está perdido? Clique aqui e volte para a home! 😊
+          Click here to return home.
         </span>
       </Link>
     </Container>
