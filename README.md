@@ -13,3 +13,7 @@ To obtain this project, follow the steps:
 (if you want, you can use the public api url managed by My JSON Server, which comes by default in the api.ts file)
 4. Run <code> yarn dev </code> at the root of the project folder to start the application in development mode.
 5. Open the application in your emulator. 🚀
+
+#### Backend URL_DB:
+
+ https://my-json-server.typicode.com/jeffubayi/tokea
