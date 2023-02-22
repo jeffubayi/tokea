@@ -24,7 +24,7 @@ export const Container = styled.div`
     height: 150px;
     width: 100%;
     -o-object-fit: cover;
-    object-fit: cover;
+    object-fit: fill;
     @media (min-width: 960px) {
       display: flex;
     }
