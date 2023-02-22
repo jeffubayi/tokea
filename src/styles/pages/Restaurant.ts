@@ -17,11 +17,32 @@ export const RestaurantHeader = styled.header<IHeaderProps>`
   }
 `;
 
-export const Container = styled.div`
+export const Container = styled.div<IHeaderProps>`
+.bg-image {
+  background: url(${props => props.cover_image_url}) no-repeat center;;/
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 200px; 
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
   .cover-image {
     display: none;
     position: relative;
-    height: 150px;
+    height: 230px;
     width: 100%;
     -o-object-fit: cover;
     object-fit: fill;
@@ -91,8 +112,8 @@ export const Container = styled.div`
       }
 
       img {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         border-radius: 50%;
 
         z-index: 10;

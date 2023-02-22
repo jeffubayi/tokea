@@ -17,7 +17,7 @@ import {
   MenuCategoriesContainer,
   Menu,
 } from '../../styles/pages/Restaurant';
-import {EventDetail} from "../../services/types"
+import { EventDetail } from "../../services/types"
 
 interface IRestarauntProps {
   restaurant: EventDetail;
@@ -30,7 +30,7 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
   return (
     <>
 
-      <Container>
+      <Container cover_image_url={restaurant?.cover_image_url}>
         {width >= 960 ? (
           <Header />
         ) : (
@@ -55,11 +55,15 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
                 {restaurant.title}
               </title>
             </Head>
-            <img
-              src={restaurant.cover_image_url}
-              alt="cover"
-              className="cover-image"
-            />
+            <div className="cover-image" >
+
+            <img  src={restaurant.image_url} />
+              <img
+                src={restaurant.image_url}
+                alt="cover"
+                className="bg-image"
+              />
+            </div>
             <main>
               <div>
                 <span />
@@ -91,16 +95,16 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
               <li className="disabled">
                 <h3>Event Organizers</h3>
               </li>
-             
+
             </ul>
           </MenuCategoriesContainer>
 
           <Menu>
-          {restaurant.end_time == 0 && (
-            <>
-            <button type="button">Purchase Ticket</button>
-            <FoodModal />
-            </>
+            {restaurant.end_time == 0 && (
+              <>
+                <button type="button">Purchase Ticket</button>
+                <FoodModal />
+              </>
             )}
             <MenuCategory category_title="Similar Events" />
           </Menu>
