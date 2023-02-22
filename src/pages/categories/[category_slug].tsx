@@ -7,20 +7,10 @@ import Header from '../../components/Header';
 import Restaurant from '../../components/pages/Home/Event';
 import Empty from '../../components/Empty';
 import useWindowDimensions from '../../hooks/useWindowDimensions';
-
-interface IRestaurant {
-  id: number;
-  title: string;
-  image_url: string;
-  category: string;
-  distance: number;
-  start_time: number;
-  end_time: number;
-  rating: number;
-}
+import { EventType } from "../../services/types"
 
 interface ICategoryProps {
-  restaurants: IRestaurant[];
+  restaurants: EventType[];
 }
 
 export default function CategoryList({ restaurants }: ICategoryProps) {
@@ -58,7 +48,7 @@ export default function CategoryList({ restaurants }: ICategoryProps) {
               <ul>
                 {restaurants?.map(restaurant => (
                   <li key={restaurant.title}>
-                    <Restaurant restaurantData={restaurant} />
+                    <Restaurant eventData={restaurant} />
                   </li>
                 ))}
               </ul>
