@@ -1,0 +1,262 @@
+ {
+  "headline": [
+    {
+      "image_url":"https://static-images.ifood.com.br/image/upload//discoveries/mercado-entregagratis.png",
+      "alt":"Mercado"
+    },
+    {
+      "image_url":"https://static-images.ifood.com.br/image/upload//discoveries/ifood_capas_rest_entrega_gratis_abr_20.png",
+      "alt":"Entrega Grátis"
+    },
+    {
+      "image_url":"https://static-images.ifood.com.br/image/upload//discoveries/20C1_abb.png",
+      "alt":"Descobertas"
+    },
+    {
+      "image_url":"https://static-images.ifood.com.br/image/upload//discoveries/jul_20_70off.jpg",
+      "alt":"Desconto"
+    }
+  ],
+  "upcomingEvents": [
+    {
+      "id": "1",
+      "title": "Mcdonald's",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201810231832_2b3b8c04-73fb-4f23-9c89-b75e538404c6.png",
+      "category": "Lanches",
+      "distance": 3.36,
+      "start_time": 28,
+      "end_time": 38,
+      "rating": 4.9
+    },
+    {
+      "id": "2",
+      "title": "Subway",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201903142138_7ed60480-4895-4f67-ba3e-edf2366eadb3.png",
+      "category": "Lanches",
+      "distance": 1.15,
+      "start_time": 15,
+      "end_time": 25,
+      "rating": 4.4
+    },
+    {
+      "id": "3",
+      "title": "Burguer King",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202009301458_d5736924-893e-42b2-89d1-ff37e58abc1e.jpg",
+      "category": "Lanches",
+      "distance": 3.3,
+      "start_time": 38,
+      "end_time": 48,
+      "rating": 4.3
+    },
+    {
+      "id": "4",
+      "title": "Sushi Boulevard",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/c48cbb89-0ddb-48ec-83cd-25946fe8c78f/201908131950_v914_i.png",
+      "category": "Japonesa",
+      "distance": 3.76,
+      "start_time": 43,
+      "end_time": 53,
+      "rating": 4.8
+    },
+    {
+      "id": "5",
+      "title": "Rocky Burguer",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/dbc629b1-71e7-406c-8959-d251540157f5/202007192209_Cywt_.jpeg",
+      "category": "Lanches",
+      "distance": 2.74,
+      "start_time": 40,
+      "end_time": 50,
+      "rating": 4.5
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1",
+      "title": "Mcdonald's",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201810231832_2b3b8c04-73fb-4f23-9c89-b75e538404c6.png",
+      "category": "Lanches",
+      "distance": 3.36,
+      "start_time": 28,
+      "end_time": 38,
+      "rating": 4.9,
+      "price": "R$ 5.99"
+    },
+    {
+      "id": "2",
+      "title": "Subway",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201903142138_7ed60480-4895-4f67-ba3e-edf2366eadb3.png",
+      "category": "Lanches",
+      "distance": 1.15,
+      "start_time": 15,
+      "end_time": 25,
+      "rating": 4.4,
+      "price": "R$ 5.99"
+    },
+    {
+      "id": "3",
+      "title": "Milleo Lanches",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201705232310_49a58116-6536-4a07-9abf-7b97c891c5e7.png",
+      "category": "Lanches",
+      "distance": 3.49,
+      "start_time": 20,
+      "end_time": 30,
+      "rating": 4.6,
+      "price": "R$ 5.99"
+    },
+    {
+      "id": "4",
+      "title": "Domino's Pizza",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201909101956_cc4ae59c-860a-48b4-9fe2-9f3f5840ce5f.png",
+      "category": "Pizza",
+      "distance": 3.4,
+      "start_time": 40,
+      "end_time": 50,
+      "rating": 4.7,
+      "price": "R$ 5.99"
+    },
+    {
+      "id": "5",
+      "title": "Habbib's",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201801241023__HABIBSNAZARE.jpg",
+      "category": "Lanches",
+      "distance": 2.97,
+      "start_time": 48,
+      "end_time": 58,
+      "rating": 4.1
+    },
+    {
+      "id": "6",
+      "title": "Batistão Duque",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/cfa433b7-eed4-4630-998e-c599623b08b3/202003190923_3A3w_i.jpg",
+      "category": "Lanches",
+      "distance": 1.8,
+      "start_time": 36,
+      "end_time": 56,
+      "rating": 4.6
+    },
+    {
+      "id": "7",
+      "title": "Sushi Boulevard",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/c48cbb89-0ddb-48ec-83cd-25946fe8c78f/201908131950_v914_i.png",
+      "category": "Japonesa",
+      "distance": 3.76,
+      "start_time": 43,
+      "end_time": 53,
+      "rating": 4.8
+    },
+    {
+      "id": "8",
+      "title": "Rocky Burguer",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/dbc629b1-71e7-406c-8959-d251540157f5/202007192209_Cywt_.jpeg",
+      "category": "Lanches",
+      "distance": 2.74,
+      "start_time": 40,
+      "end_time": 50,
+      "rating": 4.5
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "title": "Mercado",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/groc_icon_alegre.png"
+    },
+    {
+      "id": "2",
+      "title": "Promoções",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/Promo_cat.png"
+    },
+    {
+      "id": "3",
+      "title": "Vale Refeição",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/20C1_VR_Test_AB.png"
+    },
+    {
+      "id": "4",
+      "title": "Brasileira",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-brasileira-v2.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Saudável",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-saudavel-v2.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Marmita",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-marmita.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Lanches",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-lanches-v2.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Japonesa",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-japonesa.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Doces & Bolos",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-doces-e-bolos.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Italiana",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-italiana.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Carnes",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-carnes-v2.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Pizza",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-pizza.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Chinesa",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_low/discoveries/19C1-chinesa.jpg"
+    }
+  ],
+  "foods": [
+    {
+      "id": "1",
+      "title": "Batata Frita",
+      "description": "Batata frita muito massa!",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_high/pratos/dbc629b1-71e7-406c-8959-d251540157f5/201907302128_YXOh_.jpeg",
+      "price": "R$ 16,00"
+    },
+    {
+      "id": "2",
+      "title": "Batata Frita",
+      "description": "Batata frita muito massa!",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_high/pratos/dbc629b1-71e7-406c-8959-d251540157f5/201907302128_YXOh_.jpeg",
+      "price": "R$ 16,00"
+    },
+    {
+      "id": "3",
+      "title": "Batata Frita",
+      "description": "Batata frita muito massa!",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_high/pratos/dbc629b1-71e7-406c-8959-d251540157f5/201907302128_YXOh_.jpeg",
+      "price": "R$ 16,00"
+    },
+    {
+      "id": "4",
+      "title": "Batata Frita",
+      "description": "Batata frita muito massa!",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_high/pratos/dbc629b1-71e7-406c-8959-d251540157f5/201907302128_YXOh_.jpeg",
+      "price": "R$ 16,00"
+    },
+    {
+      "id": "5",
+      "title": "Batata Frita",
+      "description": "Batata frita muito massa!",
+      "image_url": "https://static-images.ifood.com.br/image/upload/t_high/pratos/dbc629b1-71e7-406c-8959-d251540157f5/201907302128_YXOh_.jpeg",
+      "price": "R$ 16,00"
+    }
+  ]
+}
