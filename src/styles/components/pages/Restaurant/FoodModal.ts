@@ -75,6 +75,10 @@ export const Container = styled.div<ContainerProps>`
         color: #3e3e3e;
       }
 
+      privacy {
+        max-width: 250px;
+      }
+
       .comments {
         padding: 0;
         display: flex;

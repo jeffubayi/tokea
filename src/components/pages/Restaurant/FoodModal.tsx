@@ -126,15 +126,19 @@ function FoodModal({ foodId, food_quantity, toggled }: IModalProps) {
           <div>
             <h1>{food.title}</h1>
             <p>{food.description}</p>
-            <strong>{formatPrice(food.price)}</strong>
+            <strong></strong>
             <div className="comments">
-              <h2>Algum comentário?</h2>
-              <span>0/140</span>
+              <p>Ticket type:</p>
+              <select >
+                <option value="">Select Ticket …</option>
+                <option value="1000">DIE HARD</option>
+                <option value="1500">ADVANCED</option>
+                <option value="2000">GATE</option>
+              </select>
             </div>
-            <textarea
-              placeholder="Ex: tirar a cebola, maionese à parte"
-              maxLength={140}
-            />
+           <p style={{maxWidth:"300px"}}>By registering and/or purchasing these ticket(s) you are agreeing to be bound by Tokea's Terms & Conditions, and by the Privacy Policy.
+              Tickets are subject to change without notice under event organizers advisory
+              The organizer of this event has a no-refund and ticket change policy</p>
           </div>
           <footer>
             <div>
@@ -156,7 +160,7 @@ function FoodModal({ foodId, food_quantity, toggled }: IModalProps) {
               className="buy-action"
               onClick={() => handleAddFoodToCart(food)}
             >
-              <span>Adicionar</span>
+              <span>Confirm</span>
               <span>{formatPrice(foodQuantity * food.price)}</span>
             </button>
           </footer>

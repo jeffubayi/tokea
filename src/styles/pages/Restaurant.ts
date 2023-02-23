@@ -42,7 +42,7 @@ export const Container = styled.div<IHeaderProps>`
   .cover-image {
     display: none;
     position: relative;
-    height: 230px;
+    height: 250px;
     width: 100%;
     -o-object-fit: cover;
     object-fit: fill;
@@ -84,6 +84,7 @@ export const Container = styled.div<IHeaderProps>`
       color: #717171;
       font-size: 0.875rem;
       margin: 0 0 32px 0;
+      max-width: 70%;
       min-width: 50%;
 
       @media (min-width: 960px) {

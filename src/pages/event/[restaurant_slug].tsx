@@ -55,15 +55,11 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
                 {restaurant.title}
               </title>
             </Head>
-            <div className="cover-image" >
-
-            <img  src={restaurant.image_url} />
               <img
                 src={restaurant.cover_image_url}
                 alt="cover"
-                className="bg-image"
+                className="cover-image"
               />
-            </div>
             <main>
               <div>
                 <span />
@@ -78,9 +74,9 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
                 </span>
               </div>
               <h1>{restaurant.title}</h1>
-              <h2>{restaurant.description}</h2>
+              <h2 > {restaurant.venue}</h2>
               <h3>
-                {restaurant.venue} • {restaurant.start_time}
+              {restaurant.description}
               </h3>
             </main>
           </>
