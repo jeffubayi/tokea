@@ -78,7 +78,7 @@ function FoodModal({ foodId, food_quantity, toggled }: IModalProps) {
       if (foodQuantity !== 0) {
         const { restaurant_slug } = router.query;
         dispatch(addFoodToCartRequest(food, restaurant_slug, foodQuantity));
-        toast.success(`${food.title} is paid for`, {
+        toast.success(`${food.title} Added to booked events`, {
           position: 'top-right',
           autoClose: 5000,
           hideProgressBar: false,
@@ -160,7 +160,7 @@ function FoodModal({ foodId, food_quantity, toggled }: IModalProps) {
               className="buy-action"
               onClick={() => handleAddFoodToCart(food)}
             >
-              <span>Confirm</span>
+              <span>Book event</span>
               <span>{formatPrice(foodQuantity * food.price)}</span>
             </button>
           </footer>

@@ -2,7 +2,11 @@ import Link from 'next/link';
 import { FaCalendarAlt } from 'react-icons/fa';
 import Skeleton from 'react-loading-skeleton';
 import { Container } from '../../../styles/components/pages/Home/Restaurant';
-import {EventProps} from '../../../services/types'
+import {EventProps} from '../../../services/types';
+import React, { useCallback } from 'react';
+import { useDispatch } from 'react-redux';
+import { toggleModal } from '../../../store/ducks/foodModal';
+
 
 export default function Restaurant({
   eventData,
@@ -19,6 +23,16 @@ export default function Restaurant({
     date,
     end_time,
   } = eventData;
+  const dispatch = useDispatch();
+
+
+  const handleToggleModal = useCallback(
+    (foodId: any) => {
+      event.stopPropagation();
+      dispatch(toggleModal(foodId));
+    },
+    [dispatch],
+  );
 
   return (
     <>
@@ -57,7 +71,7 @@ export default function Restaurant({
                   <p className="starred">{date}</p>
                   &nbsp;• {venue} 
                 </span>
-                {end_time == 0 ? <button style={{ padding: "6px", fontSize: "12px" }} type="button">Buy Ticket</button>:<span/>}
+                {end_time == 0 ? <button style={{ padding: "6px", fontSize: "12px" }}  onClick={() => handleToggleModal(id)} type="button">Buy Ticket</button>:<span/>}
               </main>
             </div>
           </Link>

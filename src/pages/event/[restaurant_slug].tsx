@@ -8,7 +8,10 @@ import FoodModal from '../../components/pages/Restaurant/FoodModal';
 import MenuCategory from '../../components/pages/Restaurant/MenuCategory';
 import useWindowSize from '../../hooks/useWindowDimensions';
 import api from '../../services/api';
+import React, { useCallback } from 'react';
 import Head from 'next/head';
+import { useDispatch } from 'react-redux';
+import { toggleModal } from '../../store/ducks/foodModal';
 
 import {
   Container,
@@ -26,6 +29,15 @@ interface IRestarauntProps {
 export default function RestaurantPage({ restaurant }: IRestarauntProps) {
   const router = useRouter();
   const { width } = useWindowSize();
+  const dispatch = useDispatch();
+
+
+  const handleToggleModal = useCallback(
+    (foodId: string) => {
+      dispatch(toggleModal(foodId));
+    },
+    [dispatch],
+  );
 
   return (
     <>
@@ -98,7 +110,7 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
           <Menu>
             {restaurant.end_time == 0 && (
               <>
-                <button type="button">Purchase Ticket</button>
+                <button type="button" onClick={() => handleToggleModal(restaurant.id)}>Purchase Ticket</button>
                 <FoodModal />
               </>
             )}
