@@ -41,7 +41,7 @@
   ],
   "pastEvents": [
      {
-      "id": 9,
+      "id": 3,
       "title": "Sandwich Podcast Liveshow #3",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://madfun.s3.af-south-1.amazonaws.com/msUnder.jpeg",
       "venue": "Winning Post,Karen",
@@ -51,7 +51,7 @@
       "date": "11 FEB"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Ms Understood Live",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://madfun.s3.af-south-1.amazonaws.com/msUnder.jpeg",
       "venue": "FairView Hotel",
@@ -61,7 +61,7 @@
       "date": "04 FEB"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Blvck Excellence",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/sankara.jpeg",
       "venue": "Sankara Parking Lot",
@@ -71,7 +71,7 @@
       "date": "07 JAN"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Legeza Dance Battle",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/legeza.jpeg",
       "venue": "Rupa's Mall ",
@@ -81,7 +81,7 @@
       "date": "14 JAN"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Blvck Excellence 2",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/blvck2.jpeg",
       "venue": "Sankara Parking Lot",
@@ -91,7 +91,7 @@
       "date": "18 DEC"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "FIM Challenge",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/fim.jpeg",
       "venue": "Jamhuri Mx Track",
@@ -101,7 +101,7 @@
       "date": "11 DEC"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "YM Life Moulin Rouge",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/512x512px.jpg",
       "venue": "Nairobi Museum",
@@ -136,8 +136,20 @@
       "end_time": 0,
       "date": "29 APR"
     },
-    {
+     {
       "id": 3,
+      "title": "Sandwich Podcast Liveshow #3",
+      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://madfun.s3.af-south-1.amazonaws.com/msUnder.jpeg",
+      "venue": "Winning Post,Karen",
+      "cover_image_url": "https://tokeabucket.s3.us-east-2.amazonaws.com/Ms+Understood+Live+Tokea+Banner+(1).jpg",
+      "description":"Lets party",
+      "category": 0,
+      "amount": 1,
+      "end_time": 1,
+      "date": "11 FEB"
+    },
+    {
+      "id": 4,
       "title": "Ms Understood Live",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://madfun.s3.af-south-1.amazonaws.com/msUnder.jpeg",
       "venue": "FairView Hotel",
@@ -149,7 +161,7 @@
       "date": "04 FEB"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Blvck Excellence",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/sankara.jpeg",
       "venue": "Sankara Parking Lot",
@@ -161,7 +173,7 @@
       "date": "07 JAN"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Legeza Dance Battle",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/legeza.jpeg",
       "venue": "Rupa's Mall ",
@@ -173,7 +185,7 @@
       "date": "14 JAN"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Blvck Excellence 2",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/blvck2.jpeg",
       "venue": "Sankara Parking Lot",
@@ -185,7 +197,7 @@
       "date": "18 DEC"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "FIM Challenge",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/fim.jpeg",
       "venue": "Jamhuri Mx Track",
@@ -197,7 +209,7 @@
       "date": "11 DEC"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "YM Life Moulin Rouge",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/512x512px.jpg",
       "venue": "Nairobi Museum",
