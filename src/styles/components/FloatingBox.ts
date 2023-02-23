@@ -57,7 +57,6 @@ export const Container = styled.div<IFloatingBoxProps>`
 
     header {
       width: 100%;
-      border-bottom: 1px solid #dcdcdc;
       padding-bottom: 28px;
 
       span {

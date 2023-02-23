@@ -37,8 +37,8 @@ function FloatingBox({ open, items, total }: IFloatingBoxProps) {
       {items.length === 0 ? (
         <>
           <Empty />
-          <h3>Sua sacola está vazia</h3>
-          <span>Adicione itens</span>
+          <h3>No events booked yet</h3>
+          <span>Purchase a ticket</span>
         </>
       ) : (
         <>
@@ -46,14 +46,14 @@ function FloatingBox({ open, items, total }: IFloatingBoxProps) {
             {items.map(item => (
               <>
                 <header>
-                  <span>Seu pedido em</span>
-                  <h1>{item.restaurant_slug}</h1>
-                  <h2>Ver Cardápio</h2>
+                  <span>Your order</span>
+                  <h1>{item.food.title}</h1>
+                  <h2> #{item.restaurant_slug}</h2>
                 </header>
                 <main key={item.food.id}>
                   <div className="flex-items">
                     <span>
-                      {item.quantity}x {item.food.title}
+                    Number of persons: {item.quantity}
                     </span>
                     <strong>{item.subtotal}</strong>
                   </div>
@@ -65,13 +65,13 @@ function FloatingBox({ open, items, total }: IFloatingBoxProps) {
                         handleToggleModal(item.food.id, item.quantity)
                       }
                     >
-                      Editar
+                      Edit
                     </button>
                     <button
                       type="button"
                       onClick={() => handleRemoveFoodFromCart(item.food.id)}
                     >
-                      Remover
+                      Remove
                     </button>
                   </footer>
                 </main>
@@ -84,8 +84,8 @@ function FloatingBox({ open, items, total }: IFloatingBoxProps) {
             </div>
 
             <div>
-              <span>Taxa de entrega</span>
-              <span>R$ 0,00</span>
+              <span>Discount</span>
+              <span>25%</span>
             </div>
 
             <div>
@@ -94,7 +94,7 @@ function FloatingBox({ open, items, total }: IFloatingBoxProps) {
             </div>
 
             <button type="button" className="submit-button">
-              Escolher forma de pagamento
+              Confirm Payment
             </button>
           </table>
         </>

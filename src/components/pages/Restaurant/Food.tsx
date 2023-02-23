@@ -74,8 +74,6 @@ const Food: React.FC<IFoodProps> = ({ foodData, isMenuContainer, loading }) => {
               <h4>{title}</h4>
 
               <p>{description}</p>
-
-              <h5>{data.formattedPrice}</h5>
             </main>
           </div>
         </Container>

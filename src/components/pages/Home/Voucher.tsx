@@ -74,8 +74,8 @@ export default function Voucher() {
             </svg>
           </span>
           <main>
-            <h4>Discover great events and buy tickets!</h4>
-            <p> Host an event as well</p>
+            <h4>25% Discount on your first ticket!</h4>
+            <p> Sign up today</p>
           </main>
           <FiChevronRight color="#ea1d2c" size={25} />
         </div>
