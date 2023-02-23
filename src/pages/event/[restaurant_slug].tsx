@@ -59,7 +59,7 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
 
             <img  src={restaurant.image_url} />
               <img
-                src={restaurant.image_url}
+                src={restaurant.cover_image_url}
                 alt="cover"
                 className="bg-image"
               />

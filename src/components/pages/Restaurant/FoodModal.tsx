@@ -78,7 +78,7 @@ function FoodModal({ foodId, food_quantity, toggled }: IModalProps) {
       if (foodQuantity !== 0) {
         const { restaurant_slug } = router.query;
         dispatch(addFoodToCartRequest(food, restaurant_slug, foodQuantity));
-        toast.success(`${food.title} foi adicionado na sacola!`, {
+        toast.success(`${food.title} is paid for`, {
           position: 'top-right',
           autoClose: 5000,
           hideProgressBar: false,
