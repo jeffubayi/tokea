@@ -30,7 +30,7 @@ function* checkFoodStock({ payload }: CheckFoodStockRequest) {
 
   const availableStockResponse: AxiosResponse<IStockResponse> = yield call(
     api.get,
-    `foods/${food.id}`,
+    `similarEvents/${food.id}`,
   );
 
   if (availableStockResponse) {

@@ -32,8 +32,8 @@ describe('Axios/SWR hook', () => {
     expect(result.current.data[1].title).toEqual('Japonesa');
   });
 
-  it('should be able to return a array of foods', async () => {
-    apiMock.onGet('foods').reply(200, [
+  it('should be able to return a array of similarEvents', async () => {
+    apiMock.onGet('similarEvents').reply(200, [
       {
         id: 1,
         title: 'Hamburger',
@@ -52,7 +52,7 @@ describe('Axios/SWR hook', () => {
       },
     ]);
 
-    const { result, waitForNextUpdate } = renderHook(() => useAxios('foods'));
+    const { result, waitForNextUpdate } = renderHook(() => useAxios('similarEvents'));
 
     await waitForNextUpdate();
 

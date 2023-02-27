@@ -1,5 +1,5 @@
 {
-  "foods": [
+  "similarEvents": [
     {
       "id": "1",
       "title": "The Pod Must Be Crazy",
@@ -52,6 +52,16 @@
     }
   ],
   "pastEvents": [
+    {
+      "id": 9,
+      "title": "Sandwich Podcast show",
+      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Toxic+Valentine.png",
+      "venue": "The Winning Post",
+      "category": 0,
+      "amount":0,
+      "end_time": 1,
+      "date": "11 FEB"
+    },
     {
       "id": 3,
       "title": "Ms Understood Live",
@@ -114,6 +124,18 @@
     }
   ],
   "events": [
+    {
+      "id": 9,
+      "title": "Sandwich Podcast show",
+      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Toxic+Valentine.png",
+      "venue": "The Winning Post",
+      "category": 0,
+      "cover_image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Toxic+Valentine.png",
+      "description": "Toxic valentines",
+      "amount":0,
+      "end_time": 1,
+      "date": "11 FEB"
+    },
     {
       "id": 1,
       "title": "The Pod Must Be Crazy",

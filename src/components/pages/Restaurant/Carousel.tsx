@@ -13,7 +13,7 @@ interface IFood {
 }
 
 export default function Carousel() {
-  const { data } = useAxios<IFood[]>('foods');
+  const { data } = useAxios<IFood[]>('similarEvents');
 
   if (!data) {
     return (

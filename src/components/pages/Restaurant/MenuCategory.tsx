@@ -19,7 +19,7 @@ interface IFood {
 }
 
 export default function MenuCategory({ category_title }: IMenuCategoryProps) {
-  const { data } = useAxios<IFood[]>('foods');
+  const { data } = useAxios<IFood[]>('similarEvents');
 
   if (!data) {
     return (

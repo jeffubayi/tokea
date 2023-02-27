@@ -58,7 +58,7 @@ function FoodModal({ foodId, food_quantity, toggled }: IModalProps) {
 
   useEffect(() => {
     async function loadFood() {
-      const { data } = await api.get<IFood>(`foods/${foodId}`);
+      const { data } = await api.get<IFood>(`similarEvents/${foodId}`);
 
       const food = {
         ...data,
