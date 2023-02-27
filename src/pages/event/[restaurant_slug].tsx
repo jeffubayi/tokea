@@ -8,17 +8,16 @@ import FoodModal from '../../components/pages/Restaurant/FoodModal';
 import MenuCategory from '../../components/pages/Restaurant/MenuCategory';
 import useWindowSize from '../../hooks/useWindowDimensions';
 import api from '../../services/api';
-import React, { useCallback } from 'react';
+import { useCallback } from 'react';
 import Head from 'next/head';
 import { useDispatch } from 'react-redux';
 import { toggleModal } from '../../store/ducks/foodModal';
-
 import {
   Container,
   RestaurantHeader,
   MenuContainer,
   MenuCategoriesContainer,
-  Menu,
+  Menu
 } from '../../styles/pages/Restaurant';
 import { EventDetail } from "../../services/types"
 
@@ -119,6 +118,7 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
         </MenuContainer>
 
         <MobileMenu />
+        <div style={{marginTop:"3 rem"}}></div>
       </Container >
     </>
   );
