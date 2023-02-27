@@ -107,18 +107,20 @@ export default function RestaurantPage({ restaurant }: IRestarauntProps) {
           </MenuCategoriesContainer>
 
           <Menu>
-            {restaurant.end_time == 0 && (
+            {restaurant.end_time == 0 ? (
               <>
                 <button type="button" onClick={() => handleToggleModal(restaurant.id)}>Purchase Ticket</button>
                 <FoodModal />
               </>
+            ):(
+              <h5 style={{display:"flex",textAlign:"center",justifyContent:"center"}}>This is a past event with no available ticket purchase</h5>
             )}
             <MenuCategory category_title="Similar Events" />
           </Menu>
         </MenuContainer>
 
         <MobileMenu />
-        <div style={{marginTop:"3 rem"}}></div>
+        <div style={{marginTop:"3rem"}}></div>
       </Container >
     </>
   );
