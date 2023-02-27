@@ -11,7 +11,7 @@ export default function MobileMenu() {
       {width >= 960 ? (
         <section >
           <footer>
-            <div style={{ display: 'flex', gap: "2rem", justifyContent: "space-between", padding: " 6rem 4rem  0 4rem" }}>
+            <div style={{ display: 'flex', gap: "2rem", justifyContent: "space-between", padding: " 6rem 4rem  0.2rem 4rem" }}>
 
               <div >
                 <svg
