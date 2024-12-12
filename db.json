@@ -143,7 +143,7 @@
       "title": "Sandwich Podcast show",
       "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/sandwich.jpeg",
       "venue": "The Winning Post",
-      "cover_image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/fim.jpeg",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/Tokea%20banner.jpeg",
       "description": "Toxic valentines",
       "category": 0,
       "amount": 0,
@@ -167,7 +167,7 @@
       "title": "Woza Sunset Nation",
       "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/woza.jpg",
       "venue": "Rupa's Mall ",
-      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/banner.png",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/Tokea%20banner.jpeg",
       "description": "Lets party",
       "category": 1,
       "amount": 0,
@@ -176,9 +176,9 @@
     },
     {
       "id": 6,
-      "title": "Blvck Excellence 2",
+      "title": "Imass Dunda ",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/blvck2.jpeg",
-      "venue": "Sankara Parking Lot",
+      "venue": "Mass House",
       "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/b2szp6yjujbps6owhw9q.jpg",
       "description": "Lets party",
       "category": 0,
@@ -209,7 +209,7 @@
       "description": "We are back at the basement for as Chris Kaiga and Side Bar take you on an adventure! Join us at the basement on the 29th of April for our first boogie of the year as the adventure goes down with Charisma, Moose the Deejay, IV, Ms Bune and Sir M",
       "category": 0,
       "amount": 0,
-      "end_time": 0,
+      "end_time": 1,
       "date": "29 APR"
     }
   ]
