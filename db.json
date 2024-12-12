@@ -15,14 +15,14 @@
       "price": "Ksh 1500"
     },
     {
-      "id": "4",
+      "id": "3",
       "title": "Broke Not Poor Experience",
       "description": "Sometimes you are missUnderstood",
       "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/bnp.jpeg",
       "price": "Ksh 1500"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "Dawa Sesh",
       "description": "Celebrating Africans",
       "image_url": "https://res.cloudinary.com/deubdntzs/image/upload/t_TokeaPoster/v1716449399/s3bsszrvsarfc54hzrvi.jpg",
@@ -53,7 +53,7 @@
   ],
   "pastEvents": [
     {
-      "id": 9,
+      "id": 3,
       "title": "Sandwich Podcast show",
       "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/sandwich.jpeg",
       "venue": "The Winning Post",
@@ -63,7 +63,7 @@
       "date": "11 FEB"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Dawa Sesh",
       "image_url": "https://res.cloudinary.com/deubdntzs/image/upload/t_TokeaPoster/v1716449399/s3bsszrvsarfc54hzrvi.jpg",
       "venue": "FairView Hotel",
@@ -73,7 +73,7 @@
       "date": "04 FEB"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Woza Sunset Nation",
       "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/woza.jpg",
       "venue": "Sankara Parking Lot",
@@ -83,8 +83,8 @@
       "date": "07 JAN"
     },
     {
-      "id": 5,
-      "title": "Legeza Dance Battle",
+      "id": 6,
+      "title": "ImassDunda ",
       "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/uxarqru0d2l35zg0aewg.jpg",
       "venue": "Rupa's Mall ",
       "category": 1,
@@ -93,9 +93,9 @@
       "date": "14 JAN"
     },
     {
-      "id": 6,
-      "title": "Blvck Excellence 2",
-      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/woza.jpg",
+      "id": 7,
+      "title": "Viringo  III",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/viringo.png",
       "venue": "Sankara Parking Lot",
       "category": 0,
       "amount":0,
@@ -103,39 +103,17 @@
       "date": "18 DEC"
     },
     {
-      "id": 7,
-      "title": "FIM Challenge",
-      "image_url": "https://res.cloudinary.com/deubdntzs/image/upload/t_TokeaPoster/v1715796587/ezhogslibhcoix9izibi.png",
+      "id": 8,
+      "title": "Tokea Events",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/logos/icon.png",
       "venue": "Jamhuri Mx Track",
       "category": 0,
       "amount":0,
       "end_time": 1,
       "date": "11 DEC"
-    },
-    {
-      "id": 8,
-      "title": "YM Life Moulin Rouge",
-      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homegr.jpg",
-      "venue": "Nairobi Museum",
-      "category": 1,
-      "amount":0,
-      "end_time": 1,
-      "date": "16 DEC"
     }
   ],
   "events": [
-    {
-      "id": 9,
-      "title": "Home Grown",
-      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homegr.jpg",
-      "venue": "The Winning Post",
-      "category": 0,
-      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homeG.jpg",
-      "description": "Toxic valentines",
-      "amount":0,
-      "end_time": 1,
-      "date": "11 FEB"
-    },
     {
       "id": 1,
       "title": "Dancehall Vs Afrobeats",
@@ -150,49 +128,49 @@
     },
     {
       "id": 2,
-      "title": "Tokea Events",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/SideBarAdventures.jpeg",
-      "venue": "Waterfront Mall",
-      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/Tokea%20banner.jpeg",
-      "description": "We are back at the basement for as Chris Kaiga and Side Bar take you on an adventure! Join us at the basement on the 29th of April for our first boogie of the year as the adventure goes down with Charisma, Moose the Deejay, IV, Ms Bune and Sir M",
+      "title": "Home Grown",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homegr.jpg",
+      "venue": "The Winning Post",
       "category": 0,
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homeG.jpg",
+      "description": "Home Grown Parties",
       "amount": 0,
-      "end_time": 0,
-      "date": "29 APR"
+      "end_time": 1,
+      "date": "11 FEB"
     },
     {
       "id": 3,
-      "title": "Viringo  III",
-      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/viringo.png",
-      "venue": "FairView Hotel",
-      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/viri.png",
-      "description": "Lets party",
+      "title": "Sandwich Podcast show",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/sandwich.jpeg",
+      "venue": "The Winning Post",
+      "cover_image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/fim.jpeg",
+      "description": "Toxic valentines",
       "category": 0,
-      "amount":0,
+      "amount": 0,
       "end_time": 1,
-      "date": "04 FEB"
+      "date": "11 DEC"
     },
     {
       "id": 4,
-      "title": "Blvck Excellence",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/sankara.jpeg",
+      "title": "Dawa Sesh",
+      "image_url": "https://res.cloudinary.com/deubdntzs/image/upload/t_TokeaPoster/v1716449399/s3bsszrvsarfc54hzrvi.jpg",
       "venue": "Sankara Parking Lot",
-      "cover_image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/sankara.jpeg",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/Tokea%20banner.jpeg",
       "description": "Lets party",
       "category": 0,
-      "amount":0,
+      "amount": 0,
       "end_time": 1,
       "date": "07 JAN"
     },
     {
       "id": 5,
-      "title": "Legeza Dance Battle",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/legeza.jpeg",
+      "title": "Woza Sunset Nation",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/woza.jpg",
       "venue": "Rupa's Mall ",
-      "cover_image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/legeza.jpeg",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/banner.png",
       "description": "Lets party",
       "category": 1,
-      "amount":0,
+      "amount": 0,
       "end_time": 1,
       "date": "14 JAN"
     },
@@ -201,36 +179,38 @@
       "title": "Blvck Excellence 2",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/blvck2.jpeg",
       "venue": "Sankara Parking Lot",
-      "cover_image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/blvck2.jpe",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/b2szp6yjujbps6owhw9q.jpg",
       "description": "Lets party",
       "category": 0,
-      "amount":0,
+      "amount": 0,
       "end_time": 1,
       "date": "18 DEC"
     },
+
     {
       "id": 7,
-      "title": "FIM Challenge",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/fim.jpeg",
-      "venue": "Jamhuri Mx Track",
-      "cover_image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/fim.jpeg",
+      "title": "Viringo  III",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/viringo.png",
+      "venue": "FairView Hotel",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/viri.png",
       "description": "Lets party",
       "category": 0,
-      "amount":0,
+      "amount": 0,
       "end_time": 1,
-      "date": "11 DEC"
+      "date": "04 FEB"
     },
+
     {
       "id": 8,
-      "title": "YM Life Moulin Rouge",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/512x512px.jpg",
-      "venue": "Nairobi Museum",
-      "cover_image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/512x512px.jpg",
-      "description": "Lets party",
-      "category": 1,
-      "amount":0,
-      "end_time": 1,
-      "date": "16 DEC"
+      "title": "Tokea Events",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/logos/icon.png",
+      "venue": "Waterfront Mall",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/Tokea%20banner.jpeg",
+      "description": "We are back at the basement for as Chris Kaiga and Side Bar take you on an adventure! Join us at the basement on the 29th of April for our first boogie of the year as the adventure goes down with Charisma, Moose the Deejay, IV, Ms Bune and Sir M",
+      "category": 0,
+      "amount": 0,
+      "end_time": 0,
+      "date": "29 APR"
     }
   ]
 }
