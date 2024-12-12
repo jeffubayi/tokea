@@ -2,38 +2,38 @@
   "similarEvents": [
     {
       "id": "1",
-      "title": "The Pod Must Be Crazy",
-      "description": "The good company",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/THE+PODS+MUST+BE+CRAZY+2-01.jpg",
+      "title": "Unbrowed",
+      "description": "Your home of amazing experiences. Ain’t no party like a Masshouse party",
+      "image_url": "https://res.cloudinary.com/deubdntzs/image/upload/t_TokeaPoster/v1715796587/ezhogslibhcoix9izibi.png",
       "price": "Ksh 1500"
     },
     {
       "id": "2",
-      "title": "Side Bar Ventures",
+      "title": "Viringo III",
       "description": "Lets party on the side bar lounge",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/SideBarAdventures.jpeg",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/viringo.png",
       "price": "Ksh 1500"
     },
     {
       "id": "4",
-      "title": "Ms Understood Live",
+      "title": "Broke Not Poor Experience",
       "description": "Sometimes you are missUnderstood",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://madfun.s3.af-south-1.amazonaws.com/msUnder.jpeg",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/bnp.jpeg",
       "price": "Ksh 1500"
     },
     {
       "id": "3",
-      "title": "Blvck Excellence",
+      "title": "Dawa Sesh",
       "description": "Celebrating Africans",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/sankara.jpeg",
+      "image_url": "https://res.cloudinary.com/deubdntzs/image/upload/t_TokeaPoster/v1716449399/s3bsszrvsarfc54hzrvi.jpg",
       "price": "Ksh 1500"
     }
   ],
   "upcomingEvents": [
     {
       "id": 1,
-      "title": "The Pod Must Be Crazy",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/THE+PODS+MUST+BE+CRAZY+2-01.jpg",
+      "title": "Dancehall Vs Afrobeats",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/dancehall.jpg",
       "venue": "Nairobi Cinema",
       "category": 0,
       "amount": 1000,
@@ -42,8 +42,8 @@
     },
     {
       "id": 2,
-      "title": "Side Bar Ventures",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/SideBarAdventures.jpeg",
+      "title": "Home Grown",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homegr.jpg",
       "venue": "Waterfront Mall",
       "category": 0,
       "amount": 1000,
@@ -55,7 +55,7 @@
     {
       "id": 9,
       "title": "Sandwich Podcast show",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Toxic+Valentine.png",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/sandwich.jpeg",
       "venue": "The Winning Post",
       "category": 0,
       "amount":0,
@@ -64,8 +64,8 @@
     },
     {
       "id": 3,
-      "title": "Ms Understood Live",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://madfun.s3.af-south-1.amazonaws.com/msUnder.jpeg",
+      "title": "Dawa Sesh",
+      "image_url": "https://res.cloudinary.com/deubdntzs/image/upload/t_TokeaPoster/v1716449399/s3bsszrvsarfc54hzrvi.jpg",
       "venue": "FairView Hotel",
       "category": 0,
       "amount":0,
@@ -74,8 +74,8 @@
     },
     {
       "id": 4,
-      "title": "Blvck Excellence",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/sankara.jpeg",
+      "title": "Woza Sunset Nation",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/woza.jpg",
       "venue": "Sankara Parking Lot",
       "category": 0,
       "amount":0,
@@ -85,7 +85,7 @@
     {
       "id": 5,
       "title": "Legeza Dance Battle",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/legeza.jpeg",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/uxarqru0d2l35zg0aewg.jpg",
       "venue": "Rupa's Mall ",
       "category": 1,
       "amount":0,
@@ -95,7 +95,7 @@
     {
       "id": 6,
       "title": "Blvck Excellence 2",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/blvck2.jpeg",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/woza.jpg",
       "venue": "Sankara Parking Lot",
       "category": 0,
       "amount":0,
@@ -105,7 +105,7 @@
     {
       "id": 7,
       "title": "FIM Challenge",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Events/fim.jpeg",
+      "image_url": "https://res.cloudinary.com/deubdntzs/image/upload/t_TokeaPoster/v1715796587/ezhogslibhcoix9izibi.png",
       "venue": "Jamhuri Mx Track",
       "category": 0,
       "amount":0,
@@ -115,7 +115,7 @@
     {
       "id": 8,
       "title": "YM Life Moulin Rouge",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/512x512px.jpg",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homegr.jpg",
       "venue": "Nairobi Museum",
       "category": 1,
       "amount":0,
@@ -126,11 +126,11 @@
   "events": [
     {
       "id": 9,
-      "title": "Sandwich Podcast show",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Toxic+Valentine.png",
+      "title": "Home Grown",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homegr.jpg",
       "venue": "The Winning Post",
       "category": 0,
-      "cover_image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/Toxic+Valentine.png",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homeG.jpg",
       "description": "Toxic valentines",
       "amount":0,
       "end_time": 1,
@@ -138,10 +138,10 @@
     },
     {
       "id": 1,
-      "title": "The Pod Must Be Crazy",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/THE+PODS+MUST+BE+CRAZY+2-01.jpg",
+      "title": "Dancehall Vs Afrobeats",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/dancehall.jpg",
       "venue": "Nairobi Cinema",
-      "cover_image_url": "https://tokeabucket.s3.us-east-2.amazonaws.com/THE+PODS+MUST+BE+CRAZY+1200x225-01.jpg",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/dancehall%20banner.jpg",
       "description": "Come and Hang Out With your Favourite Podcasters & Catch your Live Dose of Craziness",
       "category": 0,
       "amount": 0,
@@ -150,10 +150,10 @@
     },
     {
       "id": 2,
-      "title": "Side Bar Ventures",
+      "title": "Tokea Events",
       "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://tokeabucket.s3.us-east-2.amazonaws.com/SideBarAdventures.jpeg",
       "venue": "Waterfront Mall",
-      "cover_image_url": "https://tokeabucket.s3.us-east-2.amazonaws.com/sidebarBanner.jpeg",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/Tokea%20banner.jpeg",
       "description": "We are back at the basement for as Chris Kaiga and Side Bar take you on an adventure! Join us at the basement on the 29th of April for our first boogie of the year as the adventure goes down with Charisma, Moose the Deejay, IV, Ms Bune and Sir M",
       "category": 0,
       "amount": 0,
@@ -162,10 +162,10 @@
     },
     {
       "id": 3,
-      "title": "Ms Understood Live",
-      "image_url": "https://res.cloudinary.com/vaspro/image/fetch/w_512,h_512,c_fill/https://madfun.s3.af-south-1.amazonaws.com/msUnder.jpeg",
+      "title": "Viringo  III",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/viringo.png",
       "venue": "FairView Hotel",
-      "cover_image_url": "https://tokeabucket.s3.us-east-2.amazonaws.com/Ms+Understood+Live+Tokea+Banner+(1).jpg",
+      "cover_image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/viri.png",
       "description": "Lets party",
       "category": 0,
       "amount":0,
@@ -234,4 +234,3 @@
     }
   ]
 }
-
