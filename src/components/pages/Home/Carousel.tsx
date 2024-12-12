@@ -11,7 +11,7 @@ interface CarouselItem {
 const carrouselItems: CarouselItem[] = [
   {
     image_url:
-      'https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/Tokea%20banner.jpeg',
+      'https://tokeabucket.s3.us-east-2.amazonaws.com/THE+PODS+MUST+BE+CRAZY+1200x225_-01.jpg',
     alt: 'good company',
   },
   {

@@ -2,23 +2,23 @@
   "similarEvents": [
     {
       "id": "1",
-      "title": "Unbrowed",
+      "title": "Dancehall Vs Afrobeats",
       "description": "Your home of amazing experiences. Ain’t no party like a Masshouse party",
-      "image_url": "https://res.cloudinary.com/deubdntzs/image/upload/t_TokeaPoster/v1715796587/ezhogslibhcoix9izibi.png",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/dancehall.jpg",
       "price": "Ksh 1500"
     },
     {
-      "id": "2",
+      "id": "7",
       "title": "Viringo III",
       "description": "Lets party on the side bar lounge",
       "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/viringo.png",
       "price": "Ksh 1500"
     },
     {
-      "id": "3",
-      "title": "Broke Not Poor Experience",
+      "id": "2",
+      "title": "Home Grown",
       "description": "Sometimes you are missUnderstood",
-      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/bnp.jpeg",
+      "image_url": "https://uywpiarpshrufymvimen.supabase.co/storage/v1/object/public/events/public/homegr.jpg",
       "price": "Ksh 1500"
     },
     {
@@ -48,7 +48,7 @@
       "category": 0,
       "amount": 1000,
       "end_time": 0,
-      "date": "29 APR"
+      "date": "19 OCT"
     }
   ],
   "pastEvents": [
